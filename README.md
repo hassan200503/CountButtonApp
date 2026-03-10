@@ -1,0 +1,57 @@
+# Count & Quotes Button App
+
+![Java](https://img.shields.io/badge/Java-17-blue)
+![Maven](https://img.shields.io/badge/Maven-Build-green)
+
+A simple JavaFX app that:
+- Counts button clicks 
+- Shows random motivational quotes
+- Can reset the counter and quote
+
+---
+
+## Features
+
+- **Click Counter**: Increments every time you press the button.
+- **Random Quotes**: Displays a new motivational quote each click.
+- **Reset Button**: Reset both the counter and the quote.
+
+---
+
+## Screenshots
+
+Main Window of the App:  
+![Main Window](screenshots/Screenshot 2026-03-10 125007.png)
+
+Click Counter in Action:  
+![Counter Action](screenshots/Screenshot 2026-03-10 125110.png)
+
+Third Example (optional):  
+![Third Screenshot](screenshots/Screenshot 2026-03-10 125137.png)
+
+---
+
+## Requirements
+
+- Java 17 or higher  
+- JavaFX SDK installed  
+- Maven installed  
+
+---
+
+## How to Run
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/hassan200503/CountButtonApp.git```
+
+
+
+
+   ## Author
+
+**Hassan Tsuma Karungwa** ([GitHub](https://github.com/hassan200503))
+
+## License
+
+This project is licensed under the MIT License.
