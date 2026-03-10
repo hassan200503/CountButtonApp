@@ -30,7 +30,7 @@ Click Counter in Action:
 
 ![Counter Action](screenshots/counter-action.png)
 
-Third Example (optional):
+Reset in Action:
 
 ![Reset Action ](screenshots/Reset-action.png)
 
