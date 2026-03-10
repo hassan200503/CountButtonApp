@@ -20,14 +20,19 @@ A simple JavaFX app that:
 
 ## Screenshots
 
-Main Window of the App:  
-![Main Window](screenshots/Screenshot 2026-03-10 125007.png)
+## Screenshots
 
-Click Counter in Action:  
-![Counter Action](screenshots/Screenshot 2026-03-10 125110.png)
+Main Window of the App:
 
-Third Example (optional):  
-![Third Screenshot](screenshots/Screenshot 2026-03-10 125137.png)
+![Main Window](screenshots/main-window.png)
+
+Click Counter in Action:
+
+![Counter Action](screenshots/counter-action.png)
+
+Third Example (optional):
+
+![Reset Action ](screenshots/Reset-action.png)
 
 ---
 
