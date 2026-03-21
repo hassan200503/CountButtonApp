@@ -27,17 +27,21 @@ public void start(Stage Stage){
 
 Label label = new Label();
 label.setText("COUNTS " + score);
+label.setStyle("-fx-font-size: 19px; -fx-text-fill: darkblue;");
+
 
 
 Label quoteLabel = new Label();
-
+quoteLabel.setStyle("-fx-text-fill: darkblue; -fx-font-size: 19px; -fx-font-style: italic; -fx-font-style: italic;");
 
 
 
 
     Button w1 = new Button("COUNT");
+    w1.setPrefWidth(200);
+    w1.setPrefHeight(40);
 
-    
+    w1.setStyle("-fx-font-size;24px; -fx-font-weight:bold; -fx-background-color:green; -fx-text-fill:white;");
 
 
     w1.setOnAction(e ->{ 
@@ -87,7 +91,7 @@ RandomGenerator random = RandomGenerator.getDefault();
 
 
 quoteLabel.setText("QUOTES: " +quotes[random.nextInt(quotes.length)]);
-
+quoteLabel.setStyle("-fx-text-fill: blue; -fx-font-weight: blue; -fx-font-size: 19px;");
 
 
 
@@ -99,12 +103,17 @@ quoteLabel.setText("QUOTES: " +quotes[random.nextInt(quotes.length)]);
 
 
 Button w2 = new Button("RESET");
+w2.setStyle("-fx-text-fill:red; -fx-font-weight: bold; -fx-font-size: 19px;");
+
+
 
 w2.setOnAction(e ->{
     w1.setText("COUNT");
+    w1.setStyle("-fx-font-size: 19px; -fx-font-weight:bold; -fx-text-fill:darkgreen;");
     score = 0;
 
     label.setText("COUNTS " + score);
+    label.setStyle("-fx-text-fill: violet; -fx-font-weight: bold; -fx-font-size: 19px;");
 
 quoteLabel.setText("QUOTES NOT AVAILABLE RIGHT NOW!");
 
